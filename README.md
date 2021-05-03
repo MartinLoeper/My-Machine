@@ -16,7 +16,7 @@
   - check if there are any common partitioning schemas
 - Choose KDE as Desktop Environment
   - Configure Faces
-  - Configure Widgets: e.g. monitoring, [nvidia switch](https://store.kde.org/browse/cat/425/order/latest/), consider placing data dog dashboards on desktop using [Webslice](https://store.kde.org/p/998902/)
+  - Configure Widgets: e.g. monitoring, [nvidia switch](https://store.kde.org/browse/cat/425/order/latest/) or [nvitel](https://store.kde.org/p/1455101/), consider placing data dog dashboards on desktop using [Webslice](https://store.kde.org/p/998902/)
   - Configure Status Bar, e.g. network speed and audio device chooser
   - Install screenshot tool 
 - Configure Lenovo Xtreme 3 specific stuff: sound
