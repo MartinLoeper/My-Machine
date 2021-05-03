@@ -30,7 +30,7 @@
 - Fingerprint support for Login using fprintd
 - Ledger Support for Crypto
 - Useful tools such as: speedtest by Ookla, keybase
-- Brave as Browser --> do not forget to install extensions such as grammar.ly
+- Brave as Browser --> do not forget to install extensions such as grammar.ly, dashlane
 - Establish bookmarks system for work and private
 - Establish hierarchy for git projects
 - Install docker and use it for building complex things instead of polluting the system
