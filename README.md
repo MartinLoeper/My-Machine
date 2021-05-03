@@ -39,6 +39,6 @@
 - Email-Client: [hiri](https://www.hiri.com/product/)
 - Sharepoint-Client: ???
 - Configure all the original development stuff: git, vscode, git commit signing, vscode extensions (live share, auto-imports etc.)
-- Configure comms: msteams, zoom
+- Configure comms: msteams, zoom, todoist
 - KVM: Window for PowerPoint
 - Latex via vscode
