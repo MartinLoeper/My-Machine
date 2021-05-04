@@ -22,6 +22,7 @@
 - Configure Lenovo Xtreme 3 specific stuff: sound
 - Configure distro and desktop manager specific stuff, e.g.: [touchpad](https://wiki.garudalinux.org/en/tap-to-click)
 - Consider using Awesome WM as window manager --> predifined apps on multi-monitor scenarios for better monitoring of Nesto's infra
+- Use rofi as window switcher and app launcher
 - Stick to standard Garuda fish shell and alacritty terminal emulator
 - Support for nvidia and [Optimus Manager](https://github.com/Askannz/optimus-manager) - ideally with a switch built into the UI
 - Use xserver instead of Wayland
@@ -30,7 +31,10 @@
 - Fingerprint support for Login using fprintd
 - Ledger Support for Crypto
 - Useful tools such as: speedtest by Ookla, keybase
-- Brave as Browser --> do not forget to install extensions such as grammar.ly, dashlane
+- Brave as Browser
+  - do not forget to install extensions such as grammar.ly, dashlane
+  - install [start.me](https://support.start.me/hc/en-us/articles/360004527979-Use-start-me-in-the-Brave-browser)
+  - install [plasma extensions](https://chrome.google.com/webstore/detail/plasma-integration/cimiefiiaegbelhefglklhhakcgmhkai)
 - Establish bookmarks system for work and private
 - Establish hierarchy for git projects
 - Install docker and use it for building complex things instead of polluting the system
@@ -39,6 +43,10 @@
 - Email-Client: [hiri](https://www.hiri.com/product/)
 - Sharepoint-Client: ???
 - Configure all the original development stuff: git, vscode, git commit signing, vscode extensions (live share, auto-imports etc.)
+- Configure vpn with auto-login on start using ykman integration
+- Use bitwarden as Nesto password manager 
+- Install pet as snippet manager
+- Install text editor (??) and hex-viewer
 - Configure comms: msteams, zoom, todoist
 - KVM: Window for PowerPoint
 - Latex via vscode
