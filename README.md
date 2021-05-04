@@ -50,3 +50,4 @@
 - Configure comms: msteams, zoom, todoist
 - KVM: Window for PowerPoint
 - Latex via vscode
+- Tools: duf and ncurses
