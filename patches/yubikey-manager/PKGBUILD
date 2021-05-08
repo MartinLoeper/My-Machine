@@ -32,20 +32,20 @@ sha256sums=('998f804a66695feeb3a48ba200320850243aa605d6d4edcb30bea4cc349aea21'
             'SKIP')
 
 build() {
-	cd "${pkgname}-${pkgver}"
+    cd "${pkgname}-${pkgver}"
 
-	python -m pyproject2setuppy.main build
+    python -m pyproject2setuppy.main build
     python setup.py build
 }
 
 check(){
-	cd "${pkgname}-${pkgver}"
+    cd "${pkgname}-${pkgver}"
 
-	poetry run pytest  # running unit tests only...
+    poetry run pytest  # running unit tests only...
 }
 
 package() {
-	cd "${pkgname}-${pkgver}"
+    cd "${pkgname}-${pkgver}"
 
-	python setup.py install --root="${pkgdir}/" --optimize=1 --skip-build
+    python setup.py install --root="${pkgdir}/" --optimize=1 --skip-build
 }
