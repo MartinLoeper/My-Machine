@@ -12,7 +12,7 @@ url='https://developers.yubico.com/yubikey-manager/'
 license=('BSD')
 depends=('python' 'python-click' 'python-cryptography' 'python-pyopenssl' 'python-pyscard'
          'python-pyusb' 'python-six' 'python-fido2' 'ccid' 'yubikey-personalization')
-makedepends=('python-setuptools' 'swig' 'python-pyproject2setuppy')
+makedepends=('python-setuptools' 'swig' 'poetry' 'python-pyproject2setuppy')
 checkdepends=('python-mock')
 # https://developers.yubico.com/Software_Projects/Software_Signing.html
 validpgpkeys=('57A9DEED4C6D962A923BB691816F3ED99921835E'  # Emil Lundberg (Software Developer) <emil@yubico.com>
@@ -41,7 +41,8 @@ build() {
 check(){
     cd "${pkgname}-${pkgver}"
 
-    poetry run pytest  # running unit tests only...
+    # TODO: is there a way to circumvent the annoying poetry dependency?
+    poetry run pytest  # running unit tests only
 }
 
 package() {
