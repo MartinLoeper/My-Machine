@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # build the package on base-devel arch
 docker build -t yubikey-manager-4.0.2-1 .
@@ -31,9 +32,3 @@ docker run --rm \
            -v /sys/devices/:/sys/devices/ $hidraws \
            -it yubikey-manager-4.0.2-1 \
            list
-           
-if [ "$?" -ne 0 ]; then
-    >&2 echo -e "\n\n\e[31mSomething went wrong!"
-else
-    >&1 echo -e "\n\n\e[32mLooks good!"
-fi;
