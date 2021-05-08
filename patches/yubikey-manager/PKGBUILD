@@ -42,7 +42,8 @@ check(){
     cd "${pkgname}-${pkgver}"
 
     # TODO: is there a way to circumvent the annoying poetry dependency?
-    poetry run pytest  # running unit tests only
+    XDG_CACHE_HOME=${srcdir} poetry install --no-root
+    XDG_CACHE_HOME=${srcdir} poetry run pytest  # running unit tests only
 }
 
 package() {
