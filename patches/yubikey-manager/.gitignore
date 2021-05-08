@@ -2,4 +2,5 @@
 !PKGBUILD
 !Dockerfile
 !.gitignore
+!build-and-test.sh
 !build.sh
