@@ -8,7 +8,7 @@
 
 ## Solution
 
-- copied the PKGBUILD file from (the official repo](https://github.com/archlinux/svntogit-community/tree/packages/yubikey-manager/trunk)
+- copied the PKGBUILD file from [the official repo](https://github.com/archlinux/svntogit-community/tree/packages/yubikey-manager/trunk)
 - modified it to use the latest yubico release
 - wrote a [build-and-test.sh script](./build-and-test.sh) to check that everything installs and works just fine inside a Docker container with base-devel arch image
 - e-mailed the package maintainer Morten Linderud to make him aware of this version
